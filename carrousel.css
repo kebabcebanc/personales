@@ -1,0 +1,77 @@
+
+* {box-sizing:border-box}
+.carrouCont {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.slides {
+    display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -2.3em;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: 0.6s ease;
+  border-radius: 0 0.2em 0.2em 0;
+}
+.next {
+  right: 0;
+  border-radius: 0.2em 0 0 0.2em;
+}
+.prev{
+	left: 0;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 1.1em;
+  padding: 0.9em 1em;
+  position: absolute;
+  bottom: 0.8em;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 0.8em 1em;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 1em;
+  width: 1em;
+  margin: 0 0.2em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 0.2em;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
