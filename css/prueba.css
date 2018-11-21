@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
 html, body{
 	margin: 0;
 }
@@ -9,11 +11,12 @@ html, body{
 body{
 	padding-bottom: 17em;
 	position: relative;
+	horiz-align: center;
 }
 .menuHeader{
 	position: relative;
 	top: 0;
-	font-family: 'Indie Flower';
+	font-family: 'Indie Flower', Arial, "Comic Sans MS";
 	height: 3em;
 	background-color: #33CC00;
 	width: 100%;
@@ -119,10 +122,36 @@ a:hover{
 .introData{
 	border-radius: 0.3em;
 	border-color: #CFE;
+    width: 6em;
 }
 .login{
-	border-radius: 3em;
+    border-radius: 100%;
+    width: 12em;
+    height: 12em;
 	border-style: solid;
-	border-width: 0.05em; 
-	border-color: #00BB33;
+	border-width: 0.001em;
+    border-color: #00AA00;
+	box-shadow: 0.1em 0.1em green;
+    background-color: #00BB33;
+    font-family: "Pacifico";
+}
+.login:active{
+    margin: 0.2em 0 0 0.2em;
+    outline:0;
+}
+.login:focus{
+    outline:0;
+}
+.tableMenu{
+    margin-top: 0.8em;
+    width: 80%;
+    transition: 0.5s ease-in-out;
+}
+.tableMenu:hover{
+    margin-top: 0.3em;
+}
+
+.tableLogin{
+    visibility: hidden;
+    margin-left: 1.0em;
 }

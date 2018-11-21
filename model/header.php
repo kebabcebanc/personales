@@ -15,7 +15,7 @@
 			</center>
 		</div>
 		<div class="clMenu cloptions">
-			<table border="0"  style="margin-top: 0.3em; width=60%;">
+			<table border="0"  class="tableMenu">
 				<tr>
 				<?php
 				if($env!="home" and $env!=""){
