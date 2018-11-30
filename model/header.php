@@ -1,3 +1,13 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/prueba.css">
+    <link rel="stylesheet" type="text/css" href="css/carrousel.css">
+    <title>
+        Prueba
+    </title>
+</head>
+<body>
+<center>
 <div class="menuHeader">
 	<div class="ancho">
 		<div class="clMenu menuLogo">
