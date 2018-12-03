@@ -4,16 +4,17 @@ if (isset($_GET['env'])){
 }
 include ("model/header.php");
 echo('<div id="principal">');
-        include ("model/carrousel.php");
-        include("model/columns.php");
-        include ("model/login.html");
-    ?>
-    </div>
+include ("model/carrousel.php");
+include("model/columns.php");
+include ("model/login.html");
+?>
+</div>
 </div>
 <script src="js/prueba.js"></script>
+<script src="js/viewController.js"></script>
 </center>
 </body>
 <footer class="bgfooter">
-    <?php
-    readfile("model/footer.html");
-    ?>
+<?php
+readfile("model/footer.html");
+?>

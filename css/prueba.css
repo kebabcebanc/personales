@@ -38,6 +38,7 @@ body{
 }
 .menuOption{
 	margin: 1em 1em 0 0;
+	cursor: pointer;
 }
 .ancho{
 	width: 70%;
