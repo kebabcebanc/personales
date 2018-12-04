@@ -1,3 +1,6 @@
+<?php
+namespace model;
+?>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/prueba.css">
@@ -10,9 +13,11 @@
 <center>
 <div class="menuHeader">
 	<div class="ancho">
-		<div class="clMenu menuLogo">
-			Laravel
-		</div>
+        <?php
+        import /model/menu;
+        $menu=new menu();
+        $menu->addLogo();
+        ?>
 		<div class="clMenu actualPage">
 			<center>
 			<?php
